@@ -1,0 +1,34 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-left: 1px solid #c0b6b6;
+    border-right: 1px solid #c0b6b6;
+
+    background-color: #333;
+    color: whitesmoke;
+}
+
+a {
+    color: rgb(113, 168, 215);
+}
+
+a:visited {
+    color: rgb(96, 167, 126);
+}
+
+a:hover, a:active {
+    color: #eee;
+}
+
+th, td, caption {
+    border: 1px solid #d6cfcf;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: separate;
+    padding: 0.5rem;
+}
